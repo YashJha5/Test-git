@@ -1,0 +1,7 @@
+This is for branching purpose
+<<<<<<< HEAD
+so now i m changing in master branch
+=======
+and here i m making change in testing branch
+
+>>>>>>> testing
