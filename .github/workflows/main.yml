@@ -1,0 +1,13 @@
+on: [push]
+
+name: AzCli
+
+jobs:
+
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Bash
+        run: |
+          curl -L https://aka.ms/InstallAzureCliDeb | sudo bash
+          echo "$(az -version)"
