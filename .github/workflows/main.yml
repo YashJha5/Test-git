@@ -10,4 +10,4 @@ jobs:
       - name: Bash
         run: |
           curl -L https://aka.ms/InstallAzureCliDeb | sudo bash
-          echo "$(az -version)"
+          echo "Version : $(az -version)"
